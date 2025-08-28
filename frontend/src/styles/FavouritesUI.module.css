@@ -1,0 +1,120 @@
+.backgroundContainer {
+    height: 100vh;
+    width: 100vw;
+    background-color: red;
+    background-image: url('../images/Background.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+.favouritesContainer {
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    top: 15%;
+    left: 30%;
+    width: 700px;   
+    height: auto; 
+    padding-bottom: 30px;
+    border: 1px solid #379237;
+    border-radius: 10px;
+    background-color: #FEFAE0;
+}
+
+.title {
+    text-align: center;
+    margin-top: 30%;
+    margin-bottom: 40px;
+}
+
+.noFavouritesPara {
+    text-align: center;
+    top: 30px;
+}
+
+.viewCarparksButton {
+    right: 10px;
+    padding: 5px 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.viewCarparksButton:hover {
+    background-color: hsl(134, 61%, 51%);
+}
+
+.deleteButton {
+    padding: 5px 10px;
+    background-color: #F95454;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100px;
+}
+
+.deleteButton:hover {
+    background-color: #FE0000;
+}
+
+.unorderedList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.listItem {
+    bottom: 15px;
+    padding: 10px 0 10px 0;
+    border: 1px solid #379237;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row; 
+    align-items: center;    
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 600px;
+    margin-left: 50px;
+}
+
+.errorContainer {
+    color: 'red';
+    bottom: '10px';
+    text-align: 'center';
+}
+
+.eachFavouriteButtonsDiv {
+    padding: 0;
+    margin-left: 10px;
+}
+
+.eachFavouriteNameDiv {
+    width: 200px;   
+    height: 30px;  
+    text-align: center;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin-right: 10px;
+}
+
+.logo{
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-51%, -40%);
+    width: 250px;
+    margin-top: 70px;
+}
+
+h2 {
+    margin-top: 0px;
+} 

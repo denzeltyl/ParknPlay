@@ -1,0 +1,96 @@
+.backgroundContainer {
+    height: 100vh;
+    width: 100vw;
+    background-image: url('../images/Background.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+.searchResultsContainer{
+    flex: 1; 
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    max-height: 95%; 
+    overflow-x: auto;
+    width: 88%;
+    margin-left: 8%;
+}
+
+.searchResultsContainer::-webkit-scrollbar{
+    display: none;
+}
+
+.header{
+    text-align: center;
+}
+
+.listContainer{
+    list-style-type: none;
+    padding: 50px;
+    max-height: 650px;
+    overflow-y: auto; 
+    border: 1px solid #28a745;
+    border-radius: 5px;
+    margin-top: 50px;
+    background-color: #FEFAE0;
+    width: 630px;
+}
+
+.listContainer::-webkit-scrollbar{
+    display: none;
+}
+
+.listItems{
+    margin-bottom: 15px; 
+    border-bottom: 1px solid #000000;
+    padding-bottom: 10px;
+}
+
+.nearbyCarparksButton{
+    margin-right: 10px;
+    padding: 5px 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.nearbyCarparksButton:hover {
+    background-color: hsl(134, 61%, 51%);
+}
+
+
+.favouritesButton{
+	padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.favouritesButton:hover {
+    background-color: #08C2FF;
+}
+
+.mapContainer{
+    flex: 1;
+    max-height: 100%;
+    width: 600px;
+    margin-top: 50px;
+}
+
+.mapDisplay {
+    height: 83.5vh;
+    width: 700px;
+    border: 2px solid #379237;
+}
+
+.screenFlexContainer {
+    display: flex;
+}
+.screenFlexChild {
+    flex: 1;
+} 

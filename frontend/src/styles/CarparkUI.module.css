@@ -1,0 +1,143 @@
+.backgroundContainer {
+    height: 100vh;
+    width: 100vw;
+    background-image: url('../images/Background.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+.container{
+    position: fixed;
+    top: 0%;
+    display: flex; 
+    height: 100%; 
+    gap: 20px; 
+    flex-direction: row;
+    left: 5%;
+    width: 87%;
+    overflow-y: auto;
+}
+
+.searchResultsContainer{
+    flex: 1; 
+    padding: 5px; 
+    font-family: Arial, Helvetica, sans-serif;
+    max-height: 95%; 
+    overflow-y: auto;
+}
+
+.searchResultsContainer::-webkit-scrollbar{
+    display: none;
+}
+
+.header{
+    text-align: center;
+    font-size: small;
+    font-weight: lighter;
+}
+
+.listContainer{
+    list-style-type: none;
+    padding: 50px;
+    max-height: 680px;
+    overflow-y: scroll; 
+    border: 1px solid #28a745;
+    border-radius: 5px;
+    margin-top: 50px;
+    background-color: #FEFAE0;
+}
+
+.listContainer::-webkit-scrollbar{
+    display: none;
+}
+
+.listItems{
+    margin-bottom: 15px; 
+    border-bottom: 1px solid #000000;
+    padding-bottom: 10px;
+}
+
+
+.mapContainer{
+    flex: 1;
+    max-height: 100%;
+    margin-top: 30px;
+    padding: 20px; 
+    width: 500px;
+    overflow-y: auto;
+    overflow: visible;
+}
+
+.mapDisplay {
+    height: 50%;
+    width: 100%;
+    border: 2px solid #379237;
+}
+
+.alternativeContainer{
+    width: 100%;
+    overflow-y: auto;
+    border: 1px solid #379237;
+    border-radius: 10px;
+    background-color: #F1F3F4;
+    margin-top: 10px;
+    text-align: center;
+    height: 350px;
+    padding-bottom: 30px;
+}
+
+.screenFlexContainer {
+    display: flex;
+}
+.screenFlexChild {
+    flex: 1;
+}
+
+.routeList {
+    list-style: none;
+}
+
+.routeButton {
+    background-color: #007bff;
+    color: white;
+    width: 200px;
+    margin-right: 35px;
+}
+
+.routeButton:hover {
+    background-color: #08C2FF;
+    outline: none;
+}
+
+.routesTitle {
+    margin-bottom: 0px;
+    margin-block-start: 10px;
+    margin-block-end: 0px;
+    margin-top: 50px;
+}
+
+.showDirectionButton {
+    background-color: #007bff;
+    color: white;
+    margin-left: 10px;
+}
+
+.showDirectionButton:hover {
+    background-color: #08C2FF;
+    outline: none;
+}
+
+.carparkName:hover {
+    color: white;
+}
+
+.summaryTitle {
+    margin-top: 50px;
+}
+
+.placeHolder {
+    margin-top: 27.5%;
+    font-size: 24px;
+    font-weight: bold;
+}
